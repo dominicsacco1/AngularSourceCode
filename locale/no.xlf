@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="no" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="edeb1b4609721b60d4a310995eaf49247cc19ab0" datatype="html">
+        <source>The CURB-65 calculator can be used in the emergency department setting to risk stratify a patient’s community acquired pneumonia.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="68fbb66e79bbdf5d9a4f5ef303f47b73dabf9ee2" datatype="html">
+        <source>The CURB-65 Score includes points for confusion and blood urea nitrogen, which in the acutely ill elderly patient, could be due to a variety of factors. An alternative scoring system, SOAR, circumvents those two parameters. It uses low systolic BP (S) and poor oxygenation (PaO2: FIO2) (O), advancing age (A), high respiratory rate (R).
+        CURB-65 does not assign points for co-morbid illness and nursing home residence, as the original study did account for many of these conditions.
+        CURB-65 may not identify patients requiring ICU admission as well as the PSI.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c96acd4d54fe6daffffe30605b6385c49b0e70a5" datatype="html">
+        <source>CURB-65 is fast to compute, requires likely already-available patient information, and provides an excellent risk stratification of community acquired pneumonia. It can facilitate better utilization of resources and treatment initiation.
+            In comparison to the PSI, CURB-65 offers equal sensitivity of mortality prediction due to community acquired pneumonia. Notably, CURB-65 (74.6%) has a higher specificity than PSI (52.2%).</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f2f2f9550c6af57a7233339408cd2bfc419ed667" datatype="html">
+        <source>CURB-65 Score for Pneumonia Severity</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0867bcf48567a1c9e713646acb05892d83340056" datatype="html">
+        <source>Estimates mortality of community-acquired pneumonia to help determine inpatient vs. outpatient treatment.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0f90c574f574219c60302ab50c0df60af832f4d0" datatype="html">
+        <source>Confusion</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/checkboxes/checkboxes.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e5003e64193125a628acb1f16565a81e193b1764" datatype="html">
+        <source>BUN &gt; 19 mg/dL (&gt; 7 mmol/L)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/checkboxes/checkboxes.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e52ca54984354b679b17631d4975a28638c478f6" datatype="html">
+        <source>Respiratory Rate ≥ 30</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/checkboxes/checkboxes.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="56813392d317969225baf2584c7cbe11a38a3d3e" datatype="html">
+        <source>Systolic BP &lt; 90 mmHg or Diastolic BP ≤ 60 mmHg</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/checkboxes/checkboxes.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="78eea2b621ba2605fa7a401087661c9fa521737a" datatype="html">
+        <source>Age ≥ 65</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/checkboxes/checkboxes.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fdc87ed27e7c077345f1b145e06c72881e3fe6cd" datatype="html">
+        <source>RESULTS SCORE</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/checkboxes/checkboxes.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
