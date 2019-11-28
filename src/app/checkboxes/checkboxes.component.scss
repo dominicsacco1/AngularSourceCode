@@ -1,0 +1,201 @@
+/*
+
+  using css to handle color and content change!
+  this will prevent you from having to write complicated "if-else"
+  jQuery blocks.
+
+*/
+
+#color-div {
+  height: auto;
+  width: 450px;
+  margin-bottom: 20px;
+}
+.default,
+.default:after {
+  background-color: transparent;
+  content: "Low risk group: 0.6% 30-day mortality."
+           "Consider outpatient treatment.";
+
+}
+.red,
+.red:after {
+  background-color: transparent;
+  content: "Low risk group: 2.7% 30-day mortality."
+  "Consider outpatient treatment.";
+}
+.blue,
+.blue:after {
+  background-color: transparent;
+  content: "Low risk group: 2.7% 30-day mortality."
+  "Consider outpatient treatment.";
+}
+.yellow,
+.yellow:after {
+  background-color: transparent;
+  content: "Low risk group: 2.7% 30-day mortality."
+  "Consider outpatient treatment.";
+}
+
+.black,
+.black:after {
+  background-color: transparent;
+  content: "Low risk group: 2.7% 30-day mortality."
+  "Consider outpatient treatment.";
+}
+
+.white,
+.white:after {
+  background-color: transparent;
+  content: "Low risk group: 2.7% 30-day mortality."
+  "Consider outpatient treatment.";
+}
+
+
+.red.blue,
+.red.blue:after {
+  background-color: transparent;
+  content: " Moderate risk group: 6.8% 30-day mortality."
+  "Consider inpatient treatment or outpatient with close followup.";
+}
+.red.blue.yellow,
+.red.blue.yellow:after {
+  background-color: transparent;
+  content: "Severe risk group: 14.0% 30-day mortality."
+  "Consider inpatient treatment with possible intensive care admission.";
+}
+.red.blue.yellow.black,
+.red.blue.yellow.black:after {
+  background-color: transparent;
+  content: "Highest risk group: 27.8% 30-day mortality."
+  "Consider inpatient treatment with possible intensive care admission.?";
+}
+
+.red.blue.yellow.black.white,
+.red.blue.yellow.black.white:after {
+  background-color: transparent;
+  content: "Highest risk group: 27.8% 30-day mortality."
+  "Consider inpatient treatment with possible intensive care admission.";
+}
+
+.red.yellow,
+.red.yellow:after {
+  background-color: transparent;
+  content: " Moderate risk group: 6.8% 30-day mortality."
+  "Consider inpatient treatment or outpatient with close followup.";
+}
+
+.red.black,
+.red.black:after {
+  background-color: transparent;
+  content: " Moderate risk group: 6.8% 30-day mortality."
+  "Consider inpatient treatment or outpatient with close followup.";
+}
+
+.red.white,
+.red.yellow:after {
+  background-color: transparent;
+  content: " Moderate risk group: 6.8% 30-day mortality."
+  "Consider inpatient treatment or outpatient with close followup.";
+}
+
+.blue.yellow,
+.blue.yellow:after {
+  background-color: transparent;
+  content: " Moderate risk group: 6.8% 30-day mortality."
+  "Consider inpatient treatment or outpatient with close followup.";
+}
+
+.blue.black,
+.blue.black:after {
+  background-color: transparent;
+  content: " Moderate risk group: 6.8% 30-day mortality."
+  "Consider inpatient treatment or outpatient with close followup.";
+}
+
+.blue.white,
+.blue.white:after {
+  background-color: transparent;
+  content: " Moderate risk group: 6.8% 30-day mortality."
+  "Consider inpatient treatment or outpatient with close followup.";
+}
+
+.yellow.black,
+.yellow.black:after {
+  background-color: transparent;
+  content: " Moderate risk group: 6.8% 30-day mortality."
+  "Consider inpatient treatment or outpatient with close followup.";
+}
+
+.yellow.white,
+.yellow.white:after {
+  background-color: transparent;
+  content: " Moderate risk group: 6.8% 30-day mortality."
+  "Consider inpatient treatment or outpatient with close followup.";
+}
+
+.black.white,
+.black.white:after {
+  background-color: transparent;
+  content: " Moderate risk group: 6.8% 30-day mortality."
+  "Consider inpatient treatment or outpatient with close followup.";
+}
+
+.red.yellow.black,
+.red.yellow.black:after {
+  background-color: transparent;
+  content: "Severe risk group: 14.0% 30-day mortality."
+  "Consider inpatient treatment with possible intensive care admission.";
+}
+
+.red.yellow.white,
+.red.yellow.white:after {
+  background-color: transparent;
+  content: "Severe risk group: 14.0% 30-day mortality."
+  "Consider inpatient treatment with possible intensive care admission.";
+}
+
+.blue.yellow.black,
+.blue.yellow.black:after {
+  background-color: transparent;
+  content: "Severe risk group: 14.0% 30-day mortality."
+  "Consider inpatient treatment with possible intensive care admission.";
+}
+
+.blue.black.white,
+.blue.black.white:after {
+  background-color: transparent;
+  content: "Severe risk group: 14.0% 30-day mortality."
+  "Consider inpatient treatment with possible intensive care admission.";
+}
+
+.blue.yellow.white,
+.blue.yellow.white:after {
+  background-color: transparent;
+  content: "Severe risk group: 14.0% 30-day mortality."
+  "Consider inpatient treatment with possible intensive care admission.";
+}
+
+.red.blue.black,
+.red.blue.black:after {
+  background-color: transparent;
+  content: "Severe risk group: 14.0% 30-day mortality."
+  "Consider inpatient treatment with possible intensive care admission.";
+}
+
+.red.blue.white,
+.red.blue.white:after {
+  background-color: transparent;
+  content: "Severe risk group: 14.0% 30-day mortality."
+  "Consider inpatient treatment with possible intensive care admission.";
+}
+
+.blue.yellow.black.white,
+.blue.yellow.black.white:after {
+  background-color: transparent;
+  content: "Highest risk group: 27.8% 30-day mortality."
+  "Consider inpatient treatment with possible intensive care admission.?";
+}
+
+
+

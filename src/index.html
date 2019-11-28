@@ -6,8 +6,114 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="/src/assets/script.js"></script>
+
+  <script text="javascript">
+  function checkTotalCheckedBoxes()
+{
+     var checkLength = 0;
+     var boxes = document.getElementById("yyy").getElementsByTagName("input");
+     for (var i = 0; i < boxes.length; i++)
+     {
+         boxes[i].checked ? checkLength++ : null;
+     }
+
+     document.getElementById('checklength').textContent = checkLength;
+}
+  </script>
+
+  <script text="javascript">
+$(document).ready(function() {
+
+  // checkboxes with name 'color', 'color-div', and reset button
+  var colors = $("input[name='color']");
+  var colorDiv = $("#color-div");
+  var reset = $("#reset");
+
+
+
+  // bind to 'colors' change event:
+  colors.change(function() {
+
+    // empty array to hold the color ids
+    var idArr = [];
+
+    // get the checked colors
+    var checked = $("input[name='color']:checked");
+
+    // loop and build array
+    checked.each(function() {
+      idArr.push($(this).prop("id"));
+    });
+
+    // function below   
+    toggleColors(idArr, colorDiv);
+
+  });
+
+
+
+  // reset to defaults
+  $("#reset").click(function() {
+
+    // function below
+    setDefault(colorDiv);
+
+    // back to hidden
+    colorDiv.hide();
+
+    // uncheck the check boxes
+    $("input[name='color']:checked").removeAttr("checked");
+  });
+
+});
+
+
+
+/// function to add color css classes based on checkbox id array
+function toggleColors(arr, elem) {
+
+  var arrLen = arr.length;
+
+  // set default if array is empty
+  if (arrLen < 1) {
+    setDefault(elem);
+    return;
+  };
+
+  // remove classes, add classes
+  elem.removeClass();
+  for (i = 0; i < arrLen; i++) {
+    elem.addClass(arr[i]);
+  }
+
+  // unhide
+  elem.show();
+
+}
+
+
+/// set the color div to "default"
+function setDefault(elem) {
+  elem.removeClass();
+  elem.addClass("default");
+}
+    </script>
+
+
+
 </head>
 <body>
   <app-root></app-root>
+
 </body>
 </html>
