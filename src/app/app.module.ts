@@ -9,16 +9,20 @@ import { LOCALE_ID } from '@angular/core';
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
-    CheckboxesComponent
+    CheckboxesComponent,
+
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     MatCardModule,
-    FormsModule
+    FormsModule,
+
+
 
   ],
   providers: [ { provide: LOCALE_ID, useValue: 'en' } ],
